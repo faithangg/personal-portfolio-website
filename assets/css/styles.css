@@ -562,8 +562,30 @@ img {
   font-weight: var(--font-medium);
   margin-bottom: .25rem;
 }
-/* Active item work*/
 
+.work__button {
+  width: max-content;
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+}
+
+.work__button:hover .work__icon {
+  transform: translateX(.25rem);
+}
+
+.work__icon {
+  font-size: 1rem;
+  transition: .4s;
+}
+
+/* Active item work*/
+.active-work {
+  background-color: var(--first-color);
+  color: var(--body-color);
+}
 
 /*=============== TESTIMONIAL ===============*/
 
