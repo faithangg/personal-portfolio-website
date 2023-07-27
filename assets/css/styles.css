@@ -336,6 +336,8 @@ body.light-theme {
 
 .home__img {
   width: 900px;
+  position: relative;
+  top: 40px;
 }
 
 .home__handle {
@@ -644,7 +646,8 @@ body.light-theme {
   margin-bottom: .25rem;
 }
 
-.work__button {
+.work__button, 
+.services__button {
   width: max-content;
   color: var(--first-color);
   font-size: var(--small-font-size);
@@ -653,19 +656,84 @@ body.light-theme {
   column-gap: .25rem;
 }
 
-.work__button:hover .work__icon {
+.services__button {
+  cursor: pointer;
+}
+
+.work__button:hover .work__icon,
+.services__button:hover .services__icon {
   transform: translateX(.25rem);
 }
 
-.work__icon {
+.work__icon,
+.services__icon {
   font-size: 1rem;
   transition: .4s;
+}
+/* Services modal */
+.services__modal {
+  position: fixed;
+  inset: 0;
+  background-color: hsla(var(--second-hue), 28%, 16%, .7);
+  padding: 2rem 1rem;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+  z-index: var(--z-modal);
+}
+
+.services__modal-content {
+  position: relative;
+  background-color: var(--body-color);
+  padding: 4.5rem 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.services__modal-title {
+  text-align: center;
+} 
+
+.services__modal-title {
+  font-size: var(--h3-font-size);
+  columns: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.services__modal-description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+} 
+
+.services__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.tech__icons {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  padding-left: 10px;
 }
 
 /* Active item work*/
 .active-work {
   background-color: var(--first-color);
   color: var(--body-color);
+}
+
+/* Active modal*/
+.active-modal {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*=============== TESTIMONIAL ===============*/
@@ -915,6 +983,15 @@ body.light-theme {
     justify-content: center;
   }
 
+  .services__modal-content {
+    width: 500px;
+    padding: 4.5rem 2.5rem 2.5rem;
+  }
+
+  .services__modal-description {
+    padding: 0 3.5rem;
+  }
+  
   .work__img {
     width: 295px;
   }
@@ -988,6 +1065,8 @@ body.light-theme {
 
   .home__img {
     width: 220px;
+    position: relative;
+    top: 40px;
   }
 
   .home__social-link {
