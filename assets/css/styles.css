@@ -720,9 +720,31 @@ body.light-theme {
   align-items: center;
 }
 
-svg {
-  padding-left: 10px;
+.tech__icons span {
+  margin-right: 10px;
+  margin-left: 10px;
 }
+
+.tech__icons i {
+  font-size: 2rem;
+}
+
+.tech__icons img.tech-icon {
+  width: 100%;
+  max-width: 45px;
+  min-width: 30px;
+  height: auto;
+}
+
+.flask-icon {
+  background-color: rgb(222, 222, 222); 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 5px; 
+}
+
 
 /* Active item work*/
 .active-work {
