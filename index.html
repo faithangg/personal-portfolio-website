@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--=============== DEVICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+        <!--=============== reCAPTCHA ===============-->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <title> Faith Ang </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Faith</a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bx-home' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user-circle' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class='bx bx-briefcase' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class='bx bx-code-block'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link active-link">
+                                <i class='bx bx-chat'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme Change Button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Faith Ang</h1>
+                        <h3 class="home__education">Frontend Developer</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/Resume-Faith-Ang.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About Me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="assets/img/linkedin.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/faith-ang01/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </a>
+
+                        <a href="https://github.com/faithangg"  target="_blank" class="home__social-link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon' ></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/profile2.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx bx-award about__icon'></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">3 years</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-briefcase about__icon' ></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">2 Projects</span>
+                            </div>
+                        </div>
+
+                        <p class="about__description">
+                            Hi! I'm Faith, a highly motivated penultimate-year student studying at Singapore Management University majoring in digital cloud solution. I am fervently passionate about utilizing technology to drive innovation and efficiency in various industries. 
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My Experience</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Vuejs</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Flask</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== QUALIFICATION ===============-->
+            <section class="qualification section" id="qualification">
+                <span class="section__subtitle">My Personal Journey</span>
+                <h2 class="section__title">Qualification</h2>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class='bx bxs-graduation qualification__icon' ></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class='bx bx-briefcase qualification__icon' ></i>
+                            Experience
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--=============== EDUCATION ===============-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--=============== QUALIFICATION 1 ===============--> 
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">BSc Information Systems</h3>
+                                    <span class="qualification__subtitle">Singapore Management University</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bx-calendar'></i>
+                                        2021 - 2025
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div> 
+
+                            <!--=============== QUALIFICATION 2 ===============--> 
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">A Levels</h3>
+                                    <span class="qualification__subtitle">Meridian Junior College</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bx-calendar'></i>
+                                        2019 - 2020
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--=============== QUALIFICATION 3 ===============--> 
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">O Levels</h3>
+                                    <span class="qualification__subtitle">Pei Hwa Secondary School</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bx-calendar'></i>
+                                        2019 - 2016
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div> 
+                        </div>
+
+                        <!--=============== WORK ===============-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--=============== QUALIFICATION 1 ===============--> 
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">
+                                        Technical Support Staff</h3>
+                                    <span class="qualification__subtitle">NTUC First Campus</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bx-calendar'></i>
+                                        June 2021 - July 2021
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div> 
+
+                            <!-- <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">A Levels</h3>
+                                    <span class="qualification__subtitle">Meridian Junior College</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bx-calendar'></i>
+                                        2019 - 2020
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="portfolio">
+                <span class="section__subtitle">My Portfolio</span>  
+                <h2 class="section__title">Recent Works</h2> 
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter="all">All</span>
+                    <span class="work__item" data-filter=".web">Web</span>
+                    <!-- <span class="work__item" data-filter=".movil">Movil</span> -->
+                    <span class="work__item" data-filter=".design">Design</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix web">
+                        <img src="assets/img/portfolioMockup.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Personal Portfolio Website</h3>
+                        <a href="https://github.com/faithangg/personal-portfolio-website" class="work__button" target="_blank">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Personal Portfolio Website</h3>
+                                <p class="services__modal-description">
+                                    Responsive Portfolio Website Using HTML CSS & JavaScript. <br><br>
+                                    Smooth scrolling in each section. <br><br>
+                                    Includes a dark and light mode. <br><br>
+                                    Developed first with the Mobile First methodology, then for desktop. <br><br>
+                                    Compatible with all mobile devices and with a beautiful and pleasant user interface.
+                                </p>
+
+                                <div class="tech__icons">
+                                    Tech Stack: 
+                                    <span>
+                                        <i class="devicon-html5-plain colored"></i>
+                                    </span>
+
+                                    <span>
+                                        <i class="devicon-javascript-plain colored"></i>
+                                    </span>
+
+                                    <span>
+                                        <i class="devicon-css3-plain colored"></i>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/havenMockup.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Property Bidding Platform</h3>
+                        <a href="https://github.com/faithangg/ESD" class="work__button" target="_blank">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Property Bidding Platform</h3>
+                                <p class="services__modal-description">
+                                    Haven is an one-stop property bidding platform, developed by our team using the Microservices Architecture, Flask, and Docker.<br><br>
+
+                                    Each microservice represents a specific business capability, enabling seamless browsing of property listings, appointment booking, and real-time property bidding through our user-friendly interface. <br><br>
+
+                                    We also developed REST APIs to ensure smooth and efficient communication between services.
+                                </p>
+
+                                <p class="tech__icons">
+                                    Tech Stack: 
+                                    <span>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Icon" class="tech-icon" />
+                                    </span>
+
+                                    <span>
+                                        <i class="devicon-javascript-plain colored"></i>
+                                    </span>
+
+                                    <span>      
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="tech-icon"/>
+                                    </span>
+
+                                    <span>      
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" class="tech-icon"/>
+                                    </span>
+
+                                    <span class="flask-icon">    
+                                        <i class="devicon-flask-original colored"></i>  
+                                    </span>                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/is215-poster.png" alt="" class="work__img">
+
+                        <h3 class="work__title">MUJI Digital Transformation E-Poster</h3>
+                        <a href="https://www.canva.com/design/DAFdDZDd9yQ/nxtgm1PutG_efxUFWWd5cg/watch?utm_content=DAFdDZDd9yQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" class="work__button"  target="_blank">
+                            Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                        </a>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">MUJI Digital Transformation E-Poster</h3>
+                                <p class="services__modal-description">
+                                    This poster delineates the digital transformation journey that my IS215(Digital Business Transformation) team envisioned for MUJI, a renowned retail company. <br><br>
+
+                                    Initially, it highlights the current challenges faced by MUJI, setting a firm foundation for the urgency of change and potential obstacles in the transformation process. Leveraging Porter's 5 Forces analysis, it provides a comprehensive view of the competitive dynamics surrounding MUJI. <br><br>
+
+                                    The centerpiece of the poster is the innovative proposals aimed at steering MUJI towards a digitally adept future.
+                                </p>
+
+                                <p class="tech__icons">
+                                    Tech Stack: 
+                                    <span>   
+                                        <i class="devicon-canva-original colored" ></i>
+                                    </span>   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get In Touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk To Me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">faithang1677@gmail.com</span>
+
+                                <a href="mailto:faithang1677@gmail.com" target="_blank" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write Me Your Project</h3>
+
+                        <form action="https://formspree.io/f/myyqpnko" method="POST" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="name" class="contact__form-tag">
+                                    Name
+                                </label>
+                                <input type="text" placeholder="Insert Your Name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="email" class="contact__form-tag">
+                                    Email
+                                </label>
+                                <input type="email" placeholder="Insert Your Email"class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="message" class="contact__form-tag">
+                                    Message
+                                </label>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Write Your Message" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Faith</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#qualification" class="footer__link">Qualification</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/faith-ang01/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin-square' ></i>
+                    </a>
+
+                    <a href="https://github.com/faithangg" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Faith. All Rights Reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src=""></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
